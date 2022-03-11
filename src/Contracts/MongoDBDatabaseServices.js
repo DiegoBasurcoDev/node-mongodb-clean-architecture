@@ -4,7 +4,7 @@ module.exports = class MongodbDatabase {
     constructor() {}
 
     getConnection() {
-        return mongoose.connect('mongodb+srv://dbasurco:dbasurco@cluster0.ruog3.mongodb.net/pruebanoticia?retryWrites=true&w=majority', {
+        return mongoose.connect('', {
             useUnifiedTopology: true,
             useNewUrlParser: true,
             useFindAndModify: false
